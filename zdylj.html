@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<meta charset="utf-8" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+		<meta name="renderer" content="webkit"> 
+		<meta http-equiv="Cache-Control" content="no-siteapp" /> 
+
+<title>自定义链接</title>
+</head>
+
+	<body style="background-size:cover "> 
+		<div class="am-container" >
+			<div class="am-text-center" > 
+
+		
+	</head> 
+<h2 style="text-align:center">自定义链接</h2>
+
+</br>
+
+<input placeholder="请在此输入链接~" style="height: 38px;width: 95%;border-radius: 20px;border:1px #e0e0e0 solid;text-indent: 10px;display:block;margin:0 auto" type="text" id='url'/>
+</br>
+</br>
+<button a style="color:#fff;background-color: rgba(255, 192, 203, 0.78);border:1px solid #fafafa;height: 40px;width: 120px;border-radius: 20px;display:block;margin:0 auto" onClick="jump()" >打开链接</button>
+<div style="width:100px;height:auto;color:rgba(255, 188, 186, 0.87);position:absolute;left:50%;margin-left:-50px;bottom:10px">@京企</div>
+
+<script>
+var url = document.getElementById('url');
+function jump(){
+window.location.href = url.value;
+}
+
+  window.onload=function(){
+ var bodysss=document.body;
+  bodysss.style.background="transparent";
+ 
+ }
+</script> 
+
+
+</body>
+</html>
